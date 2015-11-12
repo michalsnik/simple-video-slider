@@ -2,21 +2,24 @@
 <html>
 <head>
 	<title>Simple video slider - demo</title>
-	<link rel="stylesheet" type="text/css" href="../dist/css/simple-video-slider.css">
+	<link rel="stylesheet" type="text/css" href="../dist/css/svs.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div id="video-slider" class="svs-hld">
-	<div class="svs-item">
-		<video></video>
-	</div>
-	<div class="svs-item">
-		<video></video>
-	</div>
-	<div class="svs-item">
-		<video></video>
-	</div>
-</div>
-<script type="text/javascript" src="../dist/js/simple-video-slider.js"></script>
+
+    <div class="demo-videos">
+        <div data-svs="true">
+            <div data-svs-video="http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4"></div>
+            <div data-svs-video="http://www.sample-videos.com/video/mp4/480/big_buck_bunny_480p_2mb.mp4"></div>
+            <div data-svs-video="http://www.sample-videos.com/video/mp4/480/big_buck_bunny_480p_5mb.mp4"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../dist/js/svs.js"></script>
+    <script type="text/javascript">
+        SVS.init({
+            // settings
+        });
+    </script>
 </body>
 </html>

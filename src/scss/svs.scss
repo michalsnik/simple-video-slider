@@ -1,0 +1,15 @@
+// SVS plugin styles
+//
+// author: <michal.sajnog@hotmail.com>
+
+.svs-slider {
+    width: 100%; height: 100%; overflow: hidden;
+}
+
+.svs-video {
+    width: 100%; height: 100%;
+
+    video {
+        object-fit: cover;
+    }
+}
